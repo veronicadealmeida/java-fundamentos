@@ -7,8 +7,6 @@ public class DesafioAdivinhacao {
         int numeroAleatorio = new Random().nextInt(100);
         Integer numeroDigitadoPeloUsuario;
 
-//      System.out.println("numeroAleatorio: " + numeroAleatorio);
-
         while (tentativas <= 5) {
             Scanner leitura = new Scanner(System.in);
             System.out.println("Digite um número de 0 a 100");
@@ -29,7 +27,7 @@ public class DesafioAdivinhacao {
                     break;
                 }
                 if (tentativas == 5) {
-                    System.out.println("Você não conseguiu acertar :( ");
+                    System.out.println("Você não conseguiu acertar :( " + numeroAleatorio);
                 }
 
                 tentativas++;

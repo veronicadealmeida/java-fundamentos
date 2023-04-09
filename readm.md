@@ -35,8 +35,8 @@ Se apertarmos a tecla "1", iremos consultar o saldo e mostraremos o valor atual 
 ### Desenvolvimento
 
 
--[ ] Inicializar dados do cliente
--[ ] Menu de opções
--[ ] Visualização do saldo
--[ ] Enviar valor
--[ ] Receber valor
+-[X] Inicializar dados do cliente
+-[x] Menu de opções
+-[x] Visualização do saldo
+-[x] Enviar valor
+-[x] Receber valor
